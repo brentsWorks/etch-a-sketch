@@ -1,0 +1,64 @@
+body {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.square {
+	/* comment in to add color fade out
+	transition: all 1.5s ease-out;
+	*/
+	background-color: white;
+}
+
+.selectedSquare {
+	background-color: rgba(0, 0, 0, 0.594);
+}
+
+.popup, .reset {
+	display: block;
+	color: white;
+	font-size: 32px;
+	font-weight: 500;
+	background-color:  rgb(48, 95, 225);
+	border: 2px solid rgb(0, 0, 0);
+	padding: 15px 40px;
+	border-radius: 10px;
+	margin: 0px auto 10px auto;
+}
+
+.popup:hover, .reset:hover {
+	background-color:  rgb(89, 125, 226);
+}
+.bodyContainer {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+.secondaryContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttonContainer {
+	display: flex;
+	gap: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.squareContainer {
+	align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	border: solid black 1px;
+}
+
